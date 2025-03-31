@@ -1,4 +1,4 @@
-package com.example.cryptocompose.presentation.bottomnavigation
+package com.example.global.bottomnavigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController

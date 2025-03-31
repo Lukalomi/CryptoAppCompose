@@ -1,4 +1,4 @@
-package com.example.cryptocompose.design.theme
+package com.example.global.design.theme
 
 import androidx.compose.ui.graphics.Color
 

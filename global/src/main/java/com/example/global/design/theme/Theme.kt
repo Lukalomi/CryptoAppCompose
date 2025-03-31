@@ -1,4 +1,4 @@
-package com.example.cryptocompose.design.theme
+package com.example.global.design.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

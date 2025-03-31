@@ -37,9 +37,9 @@ fun DashBoardItemComposable() {
                 2.dp, Brush.sweepGradient(
                     0f to Color.Transparent,
                     0.4f to Color.Red,
-                    0.6f to Color.Red,
+                    0.6f to Color.Green,
                     1f to Color.Black,
-                ), shape = RoundedCornerShape(4.dp)
+                ), shape = RoundedCornerShape(16.dp)
             )
     ) {
         Row(
