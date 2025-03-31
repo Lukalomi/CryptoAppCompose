@@ -1,14 +1,14 @@
-package com.example.cryptocompose.presentation.bottomnavigation
+package com.example.global.bottomnavigation
 
 import androidx.annotation.StringRes
-import com.example.cryptocompose.R
+import com.example.global.R
+
 
 sealed class BottomBarItems(
     val route: String,
     @StringRes val title: Int,
     val icon: Int
 ) {
-
     data object Home : BottomBarItems(
         route = HOME_ROUTE,
         title = R.string.home,
@@ -33,13 +33,10 @@ sealed class BottomBarItems(
         icon = R.drawable.ic_videos //TODO remake it to settings Later
     )
 
-
     companion object {
         private const val HOME_ROUTE = "home"
         private const val NEWS_ROUTE = "news"
         private const val FAVOURITES_ROUTE = "favourites"
         private const val SETTINGS_ROUTE = "settings"
     }
-
-
 }

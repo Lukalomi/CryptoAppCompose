@@ -1,28 +1,23 @@
-package com.example.cryptocompose
+package com.example.global
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.cryptocompose.design.theme.CryptoComposeTheme
-import com.example.cryptocompose.presentation.bottomnavigation.BottomBar
-import com.example.cryptocompose.presentation.bottomnavigation.BottomBarScreen
-import com.example.cryptocompose.presentation.bottomnavigation.BottomNavGraph
+import com.example.global.design.theme.CryptoComposeTheme
+import com.example.global.bottomnavigation.BottomBarScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            CryptoComposeTheme {
+           CryptoComposeTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     BottomBarScreen()
                 }
