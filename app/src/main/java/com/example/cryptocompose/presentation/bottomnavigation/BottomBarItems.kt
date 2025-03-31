@@ -10,26 +10,36 @@ sealed class BottomBarItems(
 ) {
 
     data object Home : BottomBarItems(
-        route = "Home",
+        route = HOME_ROUTE,
         title = R.string.home,
         icon = R.drawable.ic_home
     )
 
     data object News : BottomBarItems(
-        route = "Information",
+        route = NEWS_ROUTE,
         title = R.string.news,
         icon = R.drawable.ic_news
     )
 
     data object Favourites : BottomBarItems(
-        route = "QR Scan",
+        route = FAVOURITES_ROUTE,
         title = R.string.favourites,
         icon = R.drawable.ic_favourites
     )
 
-    data object Videos : BottomBarItems(
-        route = "Services",
-        title = R.string.videos,
+    data object Settings : BottomBarItems(
+        route = SETTINGS_ROUTE,
+        title = R.string.settings,
         icon = R.drawable.ic_videos //TODO remake it to settings Later
     )
+
+
+    companion object {
+        private const val HOME_ROUTE = "home"
+        private const val NEWS_ROUTE = "news"
+        private const val FAVOURITES_ROUTE = "favourites"
+        private const val SETTINGS_ROUTE = "settings"
+    }
+
+
 }
