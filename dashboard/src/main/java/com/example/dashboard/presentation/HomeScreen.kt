@@ -10,6 +10,6 @@ import androidx.compose.ui.Modifier
 @Composable
 fun HomeScreen() {
     Surface(modifier = Modifier.fillMaxSize()) {
-        Text("HomeScreen")
+        DashBoardItemComposable()
     }
 }
