@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "CryptoCompose"
 include(":app")
- 
+include(":dashboard")
+include(":favourites")
+include(":settings")
+include(":news")

@@ -1,4 +1,4 @@
-package com.example.cryptocompose.presentation
+package com.example.settings.presentation
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-fun NewsScreen() {
+fun SettingsScreen() {
     Surface(modifier = Modifier.fillMaxSize()) {
-        Text("NewsScreen")
+        Text("SettingsScreen")
     }
 }

@@ -1,4 +1,4 @@
-package com.example.cryptocompose.presentation
+package com.example.favourites.presentation
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
